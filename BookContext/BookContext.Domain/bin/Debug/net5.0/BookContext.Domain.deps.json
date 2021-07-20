@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "BookContext.Domain/1.0.0": {
+        "dependencies": {
+          "BookContext.Shared": "1.0.0"
+        },
+        "runtime": {
+          "BookContext.Domain.dll": {}
+        }
+      },
+      "BookContext.Shared/1.0.0": {
+        "runtime": {
+          "BookContext.Shared.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BookContext.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BookContext.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
