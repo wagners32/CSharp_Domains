@@ -5662,11 +5662,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\src\\projects\\domains\\BookContext\\BookContext.Tests\\BookContext.Tests.csproj",
+      "projectUniqueName": "C:\\src\\projects\\domains\\BookContext\\BookContext.Tests\\BookContext.Tests.csproj",
       "projectName": "BookContext.Tests",
-      "projectPath": "c:\\src\\projects\\domains\\BookContext\\BookContext.Tests\\BookContext.Tests.csproj",
+      "projectPath": "C:\\src\\projects\\domains\\BookContext\\BookContext.Tests\\BookContext.Tests.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "c:\\src\\projects\\domains\\BookContext\\BookContext.Tests\\obj\\",
+      "outputPath": "C:\\src\\projects\\domains\\BookContext\\BookContext.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5683,11 +5683,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "c:\\src\\projects\\domains\\BookContext\\BookContext.Domain\\BookContext.Domain.csproj": {
-              "projectPath": "c:\\src\\projects\\domains\\BookContext\\BookContext.Domain\\BookContext.Domain.csproj"
+            "C:\\src\\projects\\domains\\BookContext\\BookContext.Domain\\BookContext.Domain.csproj": {
+              "projectPath": "C:\\src\\projects\\domains\\BookContext\\BookContext.Domain\\BookContext.Domain.csproj"
             },
-            "c:\\src\\projects\\domains\\BookContext\\BookContext.Shared\\BookContext.Shared.csproj": {
-              "projectPath": "c:\\src\\projects\\domains\\BookContext\\BookContext.Shared\\BookContext.Shared.csproj"
+            "C:\\src\\projects\\domains\\BookContext\\BookContext.Shared\\BookContext.Shared.csproj": {
+              "projectPath": "C:\\src\\projects\\domains\\BookContext\\BookContext.Shared\\BookContext.Shared.csproj"
             }
           }
         }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\src\\projects\\domains\\BookContext\\BookContext.Shared\\BookContext.Shared.csproj": {}
+    "C:\\src\\projects\\domains\\BookContext\\BookContext.Shared\\BookContext.Shared.csproj": {}
   },
   "projects": {
-    "c:\\src\\projects\\domains\\BookContext\\BookContext.Shared\\BookContext.Shared.csproj": {
+    "C:\\src\\projects\\domains\\BookContext\\BookContext.Shared\\BookContext.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\src\\projects\\domains\\BookContext\\BookContext.Shared\\BookContext.Shared.csproj",
+        "projectUniqueName": "C:\\src\\projects\\domains\\BookContext\\BookContext.Shared\\BookContext.Shared.csproj",
         "projectName": "BookContext.Shared",
-        "projectPath": "c:\\src\\projects\\domains\\BookContext\\BookContext.Shared\\BookContext.Shared.csproj",
+        "projectPath": "C:\\src\\projects\\domains\\BookContext\\BookContext.Shared\\BookContext.Shared.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "c:\\src\\projects\\domains\\BookContext\\BookContext.Shared\\obj\\",
+        "outputPath": "C:\\src\\projects\\domains\\BookContext\\BookContext.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
