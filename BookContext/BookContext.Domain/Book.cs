@@ -22,11 +22,17 @@ namespace BookContext.Domain
 
         private static void ValidaDadosDoLivro(string title, string author, int year) {
             VerificaSePossuiTitulo(title);
+            VerificaSePossuiAuthor(author);
         }
 
         private static void VerificaSePossuiTitulo(string title) {
-            if (string.IsNullOrWhiteSpace( title))
+            if (string.IsNullOrWhiteSpace(title))
              throw new DomainException("Título do livro é uma informação obrigatória.");
+        }
+
+        private static void VerificaSePossuiAuthor(string author) {
+            if (string.IsNullOrWhiteSpace(author))
+             throw new DomainException("Author do livro é uma informação obrigatória.");
         }
     }
 }
