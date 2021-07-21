@@ -1,3 +1,4 @@
+using System;
 using BookContext.Domain.Exceptions;
 
 namespace BookContext.Domain
@@ -23,6 +24,7 @@ namespace BookContext.Domain
         private static void ValidaDadosDoLivro(string title, string author, int year) {
             VerificaSePossuiTitulo(title);
             VerificaSePossuiAuthor(author);
+            ValidaSeAnoValido(year);
         }
 
         private static void VerificaSePossuiTitulo(string title) {
@@ -33,6 +35,11 @@ namespace BookContext.Domain
         private static void VerificaSePossuiAuthor(string author) {
             if (string.IsNullOrWhiteSpace(author))
              throw new DomainException("Author do livro é uma informação obrigatória.");
+        }
+
+        private static void ValidaSeAnoValido(int year) {
+            if (year < 1500 || year > DateTime.Now.Year)
+             throw new DomainException("Ano do livro inválido.");
         }
     }
 }
