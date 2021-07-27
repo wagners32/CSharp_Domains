@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "R0Get6SwRhwSUcxTKhyJEFv5PO7N7jLvKyVIiG4HyOOXcIkAzQbQxUPXFpysxty77RDQaDfz/BPTXKXsu2XGJg==",
+  "dgSpecHash": "iqBnNx3hakm1c7i8zhwR0L1KI1XayySRYkQ98rBR7ScqAG1xAn9gNcf9zolxT8AGG+U93vjGBScopHICYPZljg==",
   "success": true,
-  "projectFilePath": "C:\\src\\projects\\domains\\BookContext\\BookContext.Shared\\BookContext.Shared.csproj",
+  "projectFilePath": "c:\\src\\projects\\domains\\BookContext\\BookContext.Shared\\BookContext.Shared.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
