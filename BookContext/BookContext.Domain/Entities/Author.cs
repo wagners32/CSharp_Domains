@@ -1,6 +1,6 @@
 using BookContext.Domain.Exceptions;
 
-namespace BookContext.Domain
+namespace BookContext.Domain.Entities
 {
     public class Author
     {
@@ -29,6 +29,7 @@ namespace BookContext.Domain
             if (string.IsNullOrWhiteSpace(firstName))
                 throw new DomainException("Nome é uma informação obrigatória.");
         }
+        
         private static void ValidaSePossuiLastName(string lastName)
         {
             if (string.IsNullOrWhiteSpace(lastName))

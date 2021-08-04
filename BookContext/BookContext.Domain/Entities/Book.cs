@@ -1,7 +1,7 @@
 using System;
 using BookContext.Domain.Exceptions;
 
-namespace BookContext.Domain
+namespace BookContext.Domain.Entities
 {
     public class Book
     {

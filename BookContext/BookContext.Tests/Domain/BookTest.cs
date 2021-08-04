@@ -1,7 +1,7 @@
 using System;
 using Xunit;
-using BookContext.Domain;
 using BookContext.Domain.Exceptions;
+using BookContext.Domain.Entities;
 
 namespace BookContext.Tests.Domain
 {
